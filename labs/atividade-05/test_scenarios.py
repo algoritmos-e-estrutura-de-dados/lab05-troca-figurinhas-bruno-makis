@@ -19,3 +19,11 @@ def test_scenario_03():
     joao = ['2', '2', '2', '3', '4', '6', '10', '11', '11']
 
     assert maximizar_troca_de_figurinhas(maria, joao) == 4
+
+
+
+def test_scenario_04():
+    maria = ['5', '15', '20']
+    joao = ['3', '7', '15', '17', '20']
+
+    assert maximizar_troca_de_figurinhas(maria, joao) == 1
